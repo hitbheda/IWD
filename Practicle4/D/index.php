@@ -62,7 +62,7 @@
                 }
             }
             echo "<h1>Morse Code</h1>";
-            echo $morse_code;
+            echo "<h1>".$morse_code."</h1>";
         }
     ?>
 </body>
