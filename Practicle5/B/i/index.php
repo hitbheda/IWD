@@ -20,7 +20,7 @@
                 $num1 = $_GET['num1'];
                 $num2 = $_GET['num2'];
                 $res = mt_rand($num1,$num2);
-                echo"<br/>";
+                echo"<br>";
                 echo $res;
             }else{
                 echo "Invalid input!";
