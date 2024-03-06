@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-  <form method='get'>
-    <input type="text" name="text" placeholder="Enter text:"/>
-    <button type='submit'>Submit</button>
-  </form>
+  <div class="main">
+    <form method='get'>
+      <input type="text" name="text" placeholder="Enter text:"/>
+      <button type='submit'>Submit</button>
+    </form>
+  </div>
   <?php
     // $text = "hi bro";
     if(isset($_GET['text'])){

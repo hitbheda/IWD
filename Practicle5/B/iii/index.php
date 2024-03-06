@@ -16,11 +16,11 @@
         if(isset($_POST['num1'])){
             $num = $_POST['num1'];
             echo "<br>";
-            echo "Sin = ".sin($num);
+            echo "Sin = ".sin(deg2rad($num));
             echo "<br>";
-            echo "Cos = ".cos($num);
+            echo "Cos = ".cos(deg2rad($num));
             echo "<br>";
-            echo "Tan = ".tan($num);
+            echo "Tan = ".tan(deg2rad($num));
         }
     ?>
 </body>
