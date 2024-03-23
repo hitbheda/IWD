@@ -1,7 +1,6 @@
 <?php
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            echo "Name =".$_POST['name'].'<br/>';
-            echo "Email =".$_POST['email'].'<br/>';
-            echo "Enrollment =".$_POST['enrollment'].'<br/>';
+        if($_SERVER['REQUEST_METHOD'] == 'GET'){
+            echo "Name =".$_GET['name'].'<br/>';
+            echo "Email =".$_GET['email'].'<br/>';
+            echo "Enrollment =".$_GET['enrollment'].'<br/>';
         }
-    

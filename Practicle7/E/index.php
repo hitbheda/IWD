@@ -6,7 +6,7 @@
     <title>Employee Details Form</title>
 </head>
 <body>
-    <form action="Back.php" method="get">
+    <form action="Back.php" method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Email:</label><br>
