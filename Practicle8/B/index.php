@@ -6,3 +6,7 @@ $cookie_val = "hii";
     if(isset($_COOKIE[$cookie_name])){
         echo "Cookie name =".$_COOKIE[$cookie_name];
     }
+
+    <?php 
+        // All code 
+    ?>
