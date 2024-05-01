@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="Back.php" method="post">
+    <form action="Back.php" method="get">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br>
     <label for="email">Email:</label><br>

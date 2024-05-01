@@ -1,10 +1,10 @@
 <?php
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            echo "Name =".$_POST['name'].'<br/>';
-            echo "Email =".$_POST['email'].'<br/>';
-            echo "Date Of Birth =".$_POST['dob'].'<br/>';
-            echo "Gender =".$_POST['gender'].'<br/>';
-            echo "Phone =".$_POST['phone'].'<br/>';
+        if($_SERVER['REQUEST_METHOD'] == 'GET'){
+            echo "Name =".$_GET['name'].'<br/>';
+            echo "Email =".$_GET['email'].'<br/>';
+            echo "Date Of Birth =".$_GET['dob'].'<br/>';
+            echo "Gender =".$_GET['gender'].'<br/>';
+            echo "Phone =".$_GET['phone'].'<br/>';
         }
     
 
