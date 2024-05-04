@@ -1,8 +1,8 @@
 <?php 
     include './dbconn.php';
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $username = $_POST['passwd'];
-        $passwd = $_POST['username'];
+        $username = $_POST['username'];
+        $passwd = $_POST['passwd'];
         $position = $_POST['position'];
         $department = $_POST['department'];
         $salary = $_POST['salary'];
